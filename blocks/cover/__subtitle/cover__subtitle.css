@@ -11,26 +11,18 @@
   margin: 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   .cover__subtitle {
     bottom: 195px;
   }
 }
-/* от 769 до 1024 */
-@media (max-width: 1024px) {
+
+@media (max-width: 768px) {
   .cover__subtitle {
     bottom: 115px;
   }
 }
 
-/* от 426 до 768 */
-@media (max-width: 768px) {
-  .cover__subtitle {
-    bottom: 16.5%;
-  }
-}
-
-/* до 425 */
 @media (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;

@@ -1,5 +1,6 @@
 .cover {
   max-width: 92.5%;
+  min-height: 720px;
   background-color: #2a2c2f;
   background-size: cover;
   color: #fff;
@@ -10,10 +11,24 @@
   position: relative;
   margin: 0 auto;
   z-index: 1;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
   .cover {
     max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    min-height: 200px;
   }
 }

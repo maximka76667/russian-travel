@@ -12,7 +12,6 @@
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    max-width: 352px;
   }
 
   .place__paragraph:not(:last-child) {
@@ -22,7 +21,7 @@
 
 @media (max-width: 320px) {
   .place__paragraph {
-    max-width: 90%;
+    max-width: 288px;
     margin: 0 auto;
   }
 }

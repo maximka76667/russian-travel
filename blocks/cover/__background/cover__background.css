@@ -1,5 +1,8 @@
 .cover__background {
-  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-size: cover;
   z-index: -2;
 }

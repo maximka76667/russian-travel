@@ -1,0 +1,27 @@
+.places {
+  max-width: 76.875%;
+  background-color: #2a2c2f;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 90.625%;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 93.75%;
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    max-width: 100%;
+    padding-bottom: 66px;
+  }
+}

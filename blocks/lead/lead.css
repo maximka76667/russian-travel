@@ -1,0 +1,23 @@
+.lead {
+  max-width: 76.875%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2c2f;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 90.625%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
+}

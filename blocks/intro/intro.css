@@ -1,0 +1,25 @@
+.intro {
+  max-width: 76.875%;
+  background-color: #2a2c2f;
+  color: #fff;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 90.625%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 93.75%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 90%;
+  }
+}

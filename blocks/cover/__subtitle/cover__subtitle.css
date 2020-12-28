@@ -1,0 +1,42 @@
+/* от 1024 и больше */
+.cover__subtitle {
+  max-width: 360px;
+  position: absolute;
+  bottom: 245px;
+  left: calc(50% - 180px);
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (max-width: 1280px) {
+  .cover__subtitle {
+    bottom: 195px;
+  }
+}
+/* от 769 до 1024 */
+@media (max-width: 1024px) {
+  .cover__subtitle {
+    bottom: 115px;
+  }
+}
+
+/* от 426 до 768 */
+@media (max-width: 768px) {
+  .cover__subtitle {
+    bottom: 16.5%;
+  }
+}
+
+/* до 425 */
+@media (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+    bottom: 16.5%;
+    left: calc(50% - 144px);
+  }
+}

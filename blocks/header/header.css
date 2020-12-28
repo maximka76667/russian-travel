@@ -1,0 +1,8 @@
+.header {
+  max-width: 92.5%;
+  background-color: #2a2c2f;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  margin: 28px auto 0;
+}

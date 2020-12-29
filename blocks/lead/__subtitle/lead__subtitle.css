@@ -5,10 +5,17 @@
   margin: 32px auto 64px;
 }
 
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
 @media (max-width: 320px) {
   .lead__subtitle {
     max-width: 90%;
     line-height: 1.25;
     font-size: 16px;
+    margin: 16px auto 40px;
   }
 }

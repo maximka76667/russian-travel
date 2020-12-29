@@ -3,9 +3,11 @@
   text-align: center;
   margin: 0;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   font-weight: 900;
   margin-bottom: 32px;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 400px) {

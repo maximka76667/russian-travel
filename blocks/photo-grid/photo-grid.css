@@ -8,10 +8,12 @@
   color: #fff;
   margin: 0 auto;
   padding: 92px 0;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
   .photo-grid {
+    max-width: 90.625%;
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
@@ -19,13 +21,16 @@
 
 @media (max-width: 768px) {
   .photo-grid {
+    max-width: 93.75%;
     grid-template-columns: repeat(2, 1fr);
     padding: 88px 0;
+    gap: 16px;
   }
 }
 
 @media (max-width: 320px) {
   .photo-grid {
+    max-width: 90%;
     grid-template-columns: 1fr;
     gap: 12px;
     padding: 64px 0;

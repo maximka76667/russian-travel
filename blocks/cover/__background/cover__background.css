@@ -18,7 +18,6 @@
 }
 
 .cover__background:after {
-  display: block;
   content: '';
   width: 100%;
   height: 100%;

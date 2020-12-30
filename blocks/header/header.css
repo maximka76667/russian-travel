@@ -4,7 +4,7 @@
   color: #fff;
   display: flex;
   justify-content: flex-end;
-  padding: 28px 46px 0 48px;
+  padding: 28px 48px 0;
 }
 
 @media (max-width: 1024px) {
@@ -16,13 +16,13 @@
 @media (max-width: 768px) {
   .header {
     max-width: 93.75%;
-    padding: 24px;
+    padding: 28px 24px 0;
   }
 }
 
 @media (max-width: 320px) {
   .header {
     max-width: 90%;
-    padding: 16px 30px 0 16px;
+    padding: 16px 16px 0;
   }
 }
